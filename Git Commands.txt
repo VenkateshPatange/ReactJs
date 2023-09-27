@@ -1,0 +1,16 @@
+1. Go to folder
+2. git init
+3. git add --all
+4. git commit -m "message"
+5. git remote add origi GitURL
+6. git push -u origin master(Branch name) --- not work then git pull --rebase origin master(Branch name) and git commit -m "message"
+7. git status -- for checking status
+8. git reflog -- for log
+
+
+for swiching branch
+1. git switch -c <feature-branch>
+2. git merge origin/master(main branch name)
+3. git checkout <feature-branch>
+4. git merge master(main branch name)
+5. git push origin <feature-branch>

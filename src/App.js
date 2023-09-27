@@ -44,7 +44,7 @@ function App() {
     });
     setTimeout(()=>{
       setAlert(null)
-    },2000)
+    },2100)
   }
   return (
     <>
