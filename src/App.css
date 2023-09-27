@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  align-items: center;
+}
+.App-logo1 {
+  height: 10vmin;
+  pointer-events: none;
+  align-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo1 {
+    animation: App-logo-spin-rev infinite 5s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes App-logo-spin-rev {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+.testHead{
+  color: rgb(229, 225, 255);
+  text-align: center;
+  background-color: black;
+  padding: 2% 0%;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.headName{
+  margin-top: 10%;
+}
+.formPage{
+  margin: 2% 15%;
+}
+.formPageTitle{
+  text-align: center;
+  color: #4260df;
+}
+.formPageBody{
+  display: flex;
+  gap: 10px;
+}
+.alert{
+  width: 35%;
+  position: absolute;
+  right: 0;
+}
